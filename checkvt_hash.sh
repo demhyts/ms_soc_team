@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #set -e
-#apikey="5e92bfe394fe33287012dced2c1937dbdbf1b6ec2825a1eadd6f60f5180a593d"
+
 read -p "Input Hash : " inputHash
 read -p "Input VT Api Key : " apiKey
 curl -s -X GET https://www.virustotal.com/api/v3/search?query=$inputHash -H 'Content-Type: application/json' -H "x-apikey: $apiKey" | jq . > $inputHash.json
