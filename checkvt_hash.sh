@@ -27,6 +27,7 @@ lastAnalysisStatsFai=$(jq -r '.data[]["attributes"]["last_analysis_stats"]["fail
 lastAnalysisStatsTypUns=$(jq -r '.data[]["attributes"]["last_analysis_stats"]["type-unsupported"]' $fileName)
 popThreatCat=$(jq -r '.data[]["attributes"]["popular_threat_classification"]["popular_threat_category"][]["value"]' $fileName)
 
+echo "=========VIRUS TOTAL============="
 echo "=====VIRUS TOTAL HASH OUTPUT====="
 echo "Hashing : $hashID"
 echo "Create Date : $createDate"
