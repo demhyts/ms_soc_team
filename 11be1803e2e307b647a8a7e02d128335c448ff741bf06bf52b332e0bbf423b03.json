@@ -7,9 +7,478 @@
         "self": "https://www.virustotal.com/api/v3/files/11be1803e2e307b647a8a7e02d128335c448ff741bf06bf52b332e0bbf423b03"
       },
       "attributes": {
-        "creation_date": 348736557,
-        "type_tag": "pedll",
-        "first_seen_itw_date": 1680144365,
+        "first_submission_date": 1679467267,
+        "sha1": "20d554a80d759c50d6537dd7097fed84dd258b3e",
+        "times_submitted": 272,
+        "popular_threat_classification": {
+          "popular_threat_category": [
+            {
+              "value": "trojan",
+              "count": 33
+            }
+          ],
+          "suggested_threat_label": "trojan.marte/supplychainagent",
+          "popular_threat_name": [
+            {
+              "value": "marte",
+              "count": 6
+            },
+            {
+              "value": "supplychainagent",
+              "count": 5
+            },
+            {
+              "value": "bjvg",
+              "count": 2
+            }
+          ]
+        },
+        "ssdeep": "49152:uuhjwXkKcimPVqB4faGCMhGNYYpQVTxx6k/ftO4w6FXKpOD21pLeXvZCoFwI8ccb:Ky904wYbZCoOI85oyI/8",
+        "meaningful_name": "d3dcompiler_47.dll",
+        "reputation": -55,
+        "signature_info": {
+          "product": "Microsoft® Windows® Operating System",
+          "description": "Direct3D HLSL Compiler for Redistribution",
+          "file version": "10.0.20348.1 (WinBuild.160101.0800)",
+          "x509": [
+            {
+              "valid usage": "0.4.1.311.61.6, Code Signing",
+              "thumbprint_sha256": "4A838904E732A380E2856A9D6FEE926E5C57EB59336292AC5D9E47C9B2C1ED13",
+              "name": "Microsoft Corporation",
+              "algorithm": "sha256RSA",
+              "thumbprint_md5": "4068B1B0494EFA79F5A751DCCA8111CD",
+              "valid from": "2020-12-15 21:24:20",
+              "valid to": "2021-12-02 21:24:20",
+              "serial number": "33 00 00 03 DF FB 6A E3 F4 27 EC B6 A3 00 00 00 00 03 DF",
+              "cert issuer": "Microsoft Code Signing PCA 2010",
+              "thumbprint": "914A09C2E02C696AF394048BCB8D95449BCD5B9E"
+            },
+            {
+              "thumbprint_sha256": "9AAD6C1A83A1B974BA574A995AF35B8CA772DA919270DB1605A8B81E1BBC896F",
+              "name": "Microsoft Code Signing PCA 2010",
+              "algorithm": "sha256RSA",
+              "thumbprint_md5": "B7A7B4605E33389F48B33D17CAE73006",
+              "valid from": "2010-07-06 20:40:17",
+              "valid to": "2025-07-06 20:50:17",
+              "serial number": "61 0C 52 4C 00 00 00 00 00 03",
+              "cert issuer": "Microsoft Root Certificate Authority 2010",
+              "thumbprint": "8BFE3107712B3C886B1C96AAEC89984914DC9B6B"
+            },
+            {
+              "valid usage": "Timestamp Signing",
+              "thumbprint_sha256": "2ECD5C9988F8D6C1590700A616FBFD49C3F9B6EB94871B2FFEDD01F5717AE541",
+              "name": "Microsoft Time-Stamp Service",
+              "algorithm": "sha256RSA",
+              "thumbprint_md5": "18743F5628FF5A58FE1ACC510FE06916",
+              "valid from": "2020-11-12 18:26:04",
+              "valid to": "2022-02-11 18:26:04",
+              "serial number": "33 00 00 01 51 C3 50 E7 59 6C AA C6 A7 00 00 00 00 01 51",
+              "cert issuer": "Microsoft Time-Stamp PCA 2010",
+              "thumbprint": "A0A2AF73F13FA4420B254C252015A0C57AD7235E"
+            },
+            {
+              "thumbprint_sha256": "86EC118D1EE69670A46E2BE29C4B4208BE043E36600D4E1DD3F3D515CA119020",
+              "name": "Microsoft Time-Stamp PCA 2010",
+              "algorithm": "sha256RSA",
+              "thumbprint_md5": "02F4BF5A04D8EA2321537D606C55507D",
+              "valid from": "2010-07-01 21:36:55",
+              "valid to": "2025-07-01 21:46:55",
+              "serial number": "61 09 81 2A 00 00 00 00 00 02",
+              "cert issuer": "Microsoft Root Certificate Authority 2010",
+              "thumbprint": "2AA752FE64C49ABE82913C463529CF10FF2F04EE"
+            }
+          ],
+          "original name": "d3dcompiler_47.dll",
+          "internal name": "d3dcompiler_47.dll",
+          "copyright": "© Microsoft Corporation. All rights reserved.",
+          "pkcs7": {
+            "opusinfo": [
+              {
+                "moreInfo": "http://www.microsoft.com/windows",
+                "programName": "Microsoft Windows"
+              }
+            ]
+          }
+        },
+        "pe_info": {
+          "timestamp": 348736557,
+          "imphash": "dc71769f237c0a3ba38879380c54a4e6",
+          "machine_type": 34404,
+          "entry_point": 2683744,
+          "resource_details": [
+            {
+              "lang": "ENGLISH US",
+              "chi2": 77293.93,
+              "filetype": "unknown",
+              "entropy": 3.4575235843658447,
+              "sha256": "4e9e21a72e775da46083881e770353b2429e8a72f0bdece6ae9bc394717261cf",
+              "type": "RT_VERSION"
+            }
+          ],
+          "resource_langs": {
+            "ENGLISH US": 1
+          },
+          "resource_types": {
+            "RT_VERSION": 1
+          },
+          "overlay": {
+            "chi2": 715.12,
+            "filetype": "unknown",
+            "entropy": 7.998252868652344,
+            "offset": 4882432,
+            "md5": "a2fa289c833f28b87fd8067815fbcc7c",
+            "size": 285912
+          },
+          "sections": [
+            {
+              "name": ".text",
+              "chi2": 26650572.0,
+              "virtual_address": 4096,
+              "entropy": 6.4,
+              "raw_size": 3706880,
+              "flags": "rx",
+              "virtual_size": 3704846,
+              "md5": "f26e5a699d56a105d86862cc8a9f4a2e"
+            },
+            {
+              "name": ".rdata",
+              "chi2": 26973392.0,
+              "virtual_address": 3710976,
+              "entropy": 5.36,
+              "raw_size": 933888,
+              "flags": "r",
+              "virtual_size": 933252,
+              "md5": "cb6b9f9acf7936bef3db24b5bf4c0297"
+            },
+            {
+              "name": ".data",
+              "chi2": 10012611.0,
+              "virtual_address": 4644864,
+              "entropy": 1.99,
+              "raw_size": 65536,
+              "flags": "rw",
+              "virtual_size": 102976,
+              "md5": "1122e8e8b23db33b6edc6a3a893362dc"
+            },
+            {
+              "name": ".pdata",
+              "chi2": 2289408.0,
+              "virtual_address": 4751360,
+              "entropy": 6.36,
+              "raw_size": 131072,
+              "flags": "r",
+              "virtual_size": 130800,
+              "md5": "b1e4ba89becfa0c0c8634840ae6ddcfa"
+            },
+            {
+              "name": ".rsrc",
+              "chi2": 820776.62,
+              "virtual_address": 4882432,
+              "entropy": 1.14,
+              "raw_size": 4096,
+              "flags": "r",
+              "virtual_size": 1088,
+              "md5": "a0f1ab47d7a68f340463cb6e66040344"
+            },
+            {
+              "name": ".reloc",
+              "chi2": 218846.92,
+              "virtual_address": 4886528,
+              "entropy": 5.4,
+              "raw_size": 36864,
+              "flags": "r",
+              "virtual_size": 35236,
+              "md5": "67b424abe2d7452184be8b5f30cd6866"
+            }
+          ],
+          "exports": [
+            "D3DAssemble",
+            "D3DCompile",
+            "D3DCompile2",
+            "D3DCompileFromFile",
+            "D3DCompressShaders",
+            "D3DCreateBlob",
+            "D3DCreateFunctionLinkingGraph",
+            "D3DCreateLinker",
+            "D3DDecompressShaders",
+            "D3DDisassemble",
+            "D3DDisassemble10Effect",
+            "D3DDisassemble11Trace",
+            "D3DDisassembleRegion",
+            "D3DGetBlobPart",
+            "D3DGetDebugInfo",
+            "D3DGetInputAndOutputSignatureBlob",
+            "D3DGetInputSignatureBlob",
+            "D3DGetOutputSignatureBlob",
+            "D3DGetTraceInstructionOffsets",
+            "D3DLoadModule",
+            "D3DPreprocess",
+            "D3DReadFileToBlob",
+            "D3DReflect",
+            "D3DReflectLibrary",
+            "D3DReturnFailure1",
+            "D3DSetBlobPart",
+            "D3DStripShader",
+            "D3DWriteBlobToFile",
+            "DebugSetMute"
+          ],
+          "compiler_product_versions": [
+            "[---] Unmarked objects count=145",
+            "[IMP] VS2008 SP1 build 30729 count=5",
+            "id: 0x101, version: 28900 count=2",
+            "id: 0x105, version: 27316 count=60",
+            "id: 0x104, version: 27316 count=1",
+            "id: 0x103, version: 28900 count=30",
+            "id: 0x105, version: 28900 count=220",
+            "id: 0x104, version: 28900 count=55",
+            "id: 0x100, version: 28900 count=1",
+            "id: 0x108, version: 28900 count=136",
+            "id: 0xff, version: 28900 count=1",
+            "id: 0x102, version: 28900 count=1"
+          ],
+          "rich_pe_header_hash": "43be7f32a58e755c5cb47132958e7d2f",
+          "import_list": [
+            {
+              "library_name": "KERNEL32.dll",
+              "imported_functions": [
+                "CloseHandle",
+                "CompareStringW",
+                "CreateEventW",
+                "CreateFileA",
+                "CreateFileMappingA",
+                "CreateFileMappingW",
+                "CreateFileW",
+                "DeleteCriticalSection",
+                "DeleteFileW",
+                "DeviceIoControl",
+                "DisableThreadLibraryCalls",
+                "EncodePointer",
+                "EnterCriticalSection",
+                "EnumSystemLocalesW",
+                "ExitProcess",
+                "ExpandEnvironmentStringsW",
+                "FindClose",
+                "FindFirstFileExW",
+                "FindNextFileW",
+                "FlsAlloc",
+                "FlsFree",
+                "FlsGetValue",
+                "FlsSetValue",
+                "FlushFileBuffers",
+                "FreeEnvironmentStringsW",
+                "FreeLibrary",
+                "GetACP",
+                "GetCommandLineA",
+                "GetCommandLineW",
+                "GetConsoleMode",
+                "GetConsoleOutputCP",
+                "GetCPInfo",
+                "GetCurrentDirectoryW",
+                "GetCurrentProcess",
+                "GetCurrentProcessId",
+                "GetCurrentThreadId",
+                "GetDriveTypeW",
+                "GetEnvironmentStringsW",
+                "GetEnvironmentVariableA",
+                "GetFileAttributesW",
+                "GetFileSize",
+                "GetFileSizeEx",
+                "GetFileType",
+                "GetFullPathNameA",
+                "GetFullPathNameW",
+                "GetLastError",
+                "GetLocaleInfoW",
+                "GetModuleFileNameA",
+                "GetModuleFileNameW",
+                "GetModuleHandleExW",
+                "GetModuleHandleW",
+                "GetOEMCP",
+                "GetProcAddress",
+                "GetProcessHeap",
+                "GetStartupInfoW",
+                "GetStdHandle",
+                "GetStringTypeW",
+                "GetSystemInfo",
+                "GetSystemTimeAsFileTime",
+                "GetUserDefaultLCID",
+                "HeapAlloc",
+                "HeapCreate",
+                "HeapDestroy",
+                "HeapFree",
+                "HeapReAlloc",
+                "HeapSize",
+                "InitializeCriticalSection",
+                "InitializeCriticalSectionAndSpinCount",
+                "InitializeCriticalSectionEx",
+                "InitializeSListHead",
+                "InterlockedFlushSList",
+                "IsDebuggerPresent",
+                "IsProcessorFeaturePresent",
+                "IsValidCodePage",
+                "IsValidLocale",
+                "LCMapStringW",
+                "LeaveCriticalSection",
+                "LoadLibraryExW",
+                "LocalAlloc",
+                "LocalFree",
+                "lstrcmpiA",
+                "MapViewOfFile",
+                "MapViewOfFileEx",
+                "MultiByteToWideChar",
+                "OutputDebugStringA",
+                "QueryPerformanceCounter",
+                "RaiseException",
+                "ReadConsoleW",
+                "ReadFile",
+                "ResetEvent",
+                "RtlCaptureContext",
+                "RtlLookupFunctionEntry",
+                "RtlPcToFileHeader",
+                "RtlUnwindEx",
+                "RtlVirtualUnwind",
+                "SetEndOfFile",
+                "SetEnvironmentVariableW",
+                "SetEvent",
+                "SetFileAttributesW",
+                "SetFilePointerEx",
+                "SetLastError",
+                "SetStdHandle",
+                "SetUnhandledExceptionFilter",
+                "Sleep",
+                "TerminateProcess",
+                "TlsAlloc",
+                "TlsFree",
+                "TlsGetValue",
+                "TlsSetValue",
+                "UnhandledExceptionFilter",
+                "UnmapViewOfFile",
+                "VirtualAlloc",
+                "VirtualFree",
+                "WaitForSingleObjectEx",
+                "WideCharToMultiByte",
+                "WriteConsoleW",
+                "WriteFile"
+              ]
+            },
+            {
+              "library_name": "ADVAPI32.dll",
+              "imported_functions": [
+                "CryptAcquireContextW",
+                "CryptCreateHash",
+                "CryptDestroyHash",
+                "CryptGetHashParam",
+                "CryptHashData",
+                "CryptReleaseContext",
+                "RegCloseKey",
+                "RegEnumKeyExA",
+                "RegOpenKeyExA",
+                "RegOpenKeyExW",
+                "RegQueryValueExA",
+                "RegQueryValueExW"
+              ]
+            },
+            {
+              "library_name": "RPCRT4.dll",
+              "imported_functions": [
+                "UuidCreate"
+              ]
+            }
+          ]
+        },
+        "type_tags": [
+          "executable",
+          "windows",
+          "win32",
+          "pe",
+          "pedll"
+        ],
+        "last_modification_date": 1752456786,
+        "authentihash": "2df8dd0641e0b2af596978fa5a2b289be227f36444dd1dc63e05f0290b704c49",
+        "md5": "82187ad3f0c6c225e2fba0c867280cc9",
+        "trid": [
+          {
+            "file_type": "Win64 Executable (generic)",
+            "probability": 48.7
+          },
+          {
+            "file_type": "Win16 NE executable (generic)",
+            "probability": 23.3
+          },
+          {
+            "file_type": "OS/2 Executable (generic)",
+            "probability": 9.3
+          },
+          {
+            "file_type": "Generic Win/DOS Executable",
+            "probability": 9.2
+          },
+          {
+            "file_type": "DOS Executable Generic",
+            "probability": 9.2
+          }
+        ],
+        "last_analysis_stats": {
+          "malicious": 48,
+          "suspicious": 0,
+          "undetected": 24,
+          "harmless": 0,
+          "timeout": 0,
+          "confirmed-timeout": 0,
+          "failure": 0,
+          "type-unsupported": 4
+        },
+        "detectiteasy": {
+          "filetype": "PE64",
+          "values": [
+            {
+              "info": "LTCG/C",
+              "version": "19.26.28900",
+              "type": "Compiler",
+              "name": "Microsoft Visual C/C++"
+            },
+            {
+              "version": "14.26.28900",
+              "type": "Linker",
+              "name": "Microsoft Linker"
+            },
+            {
+              "version": "2019 version 16.6",
+              "type": "Tool",
+              "name": "Visual Studio"
+            },
+            {
+              "info": "PKCS #7",
+              "version": "2.0",
+              "type": "Sign tool",
+              "name": "Windows Authenticode"
+            }
+          ]
+        },
+        "size": 5168344,
+        "crowdsourced_yara_results": [
+          {
+            "ruleset_id": "015f584196",
+            "ruleset_name": "Windows_Trojan_SuddenIcon",
+            "rule_name": "Windows_Trojan_SuddenIcon_bdae76c9",
+            "match_date": 1752390592,
+            "author": "Elastic Security",
+            "ruleset_version": "015f584196|898abecefdc55209cd6ff45823c8ed66081585eb",
+            "source": "https://github.com/elastic/protections-artifacts"
+          }
+        ],
+        "filecondis": {
+          "dhash": "00001c1e1e1f0d02",
+          "raw_md5": "dddda7b32dedeb209a0d0dcb83cd3fba"
+        },
+        "last_analysis_date": 1752390589,
+        "tags": [
+          "pedll",
+          "assembly",
+          "detect-debug-environment",
+          "long-sleeps",
+          "64bits",
+          "overlay"
+        ],
         "sandbox_verdicts": {
           "Zenbox": {
             "category": "harmless",
@@ -34,68 +503,11 @@
             ]
           }
         },
-        "filecondis": {
-          "raw_md5": "dddda7b32dedeb209a0d0dcb83cd3fba",
-          "dhash": "00001c1e1e1f0d02"
+        "tlsh": "T1A6368D5673E940A9C1BBD138CE479213EBB1780403345BEB5191C669EF73BE26A3E724",
+        "total_votes": {
+          "harmless": 1,
+          "malicious": 8
         },
-        "md5": "82187ad3f0c6c225e2fba0c867280cc9",
-        "last_analysis_stats": {
-          "malicious": 48,
-          "suspicious": 0,
-          "undetected": 24,
-          "harmless": 0,
-          "timeout": 0,
-          "confirmed-timeout": 0,
-          "failure": 0,
-          "type-unsupported": 4
-        },
-        "unique_sources": 191,
-        "times_submitted": 272,
-        "crowdsourced_yara_results": [
-          {
-            "ruleset_id": "015f584196",
-            "ruleset_name": "Windows_Trojan_SuddenIcon",
-            "rule_name": "Windows_Trojan_SuddenIcon_bdae76c9",
-            "match_date": 1752390592,
-            "author": "Elastic Security",
-            "ruleset_version": "015f584196|898abecefdc55209cd6ff45823c8ed66081585eb",
-            "source": "https://github.com/elastic/protections-artifacts"
-          }
-        ],
-        "magic": "PE32+ executable (DLL) (console) x86-64, for MS Windows",
-        "meaningful_name": "d3dcompiler_47.dll",
-        "reputation": -55,
-        "sha256": "11be1803e2e307b647a8a7e02d128335c448ff741bf06bf52b332e0bbf423b03",
-        "names": [
-          "_d3dcompiler_47.dll_a673e78c_fc6a_4133_b2d9_b6447cfbc1c3",
-          "d3dcompiler_47.dll",
-          "_d3dcompiler_47.dll_4f499839_62c8_433b_beff_574db37e3c81",
-          "d3dcompiler_47.bin",
-          "3CXDesktopApp-18.12.416-full.nupkg",
-          "11be1803e2e307b647a8a7e02d128335c448ff741bf06bf52b332e0bbf423b03.dll",
-          "b891e.rbf",
-          "b318a.rbf",
-          "b312f.rbf",
-          "b88c6.rbf",
-          "3520e7.rbf",
-          "Mal_d3dcompiler_47.dll",
-          "5b822f8.rbf",
-          "11be1803e2e307b647a8a7e02d128335c448ff741bf06bf52b332e0bbf423b03.bin",
-          "4975626a.rbf",
-          "11be1803e2e307b647a8a7e02d128335c448ff741bf06bf52b332e0bbf423b03.bin.sample",
-          "d3dcompiler_47.dll.virus",
-          "11be1803e2e307b647a8a7e02d128335c448ff741bf06bf52b332e0bbf423b03_d3complierdll",
-          "20d554a80d759c50d6537dd7097fed84dd258b3e.exe",
-          "d3dcompiler_47.dll (PROEN-204)",
-          "11be1803e2e307b647a8a7e02d128335c448ff741bf06bf52b332e0bbf423b03.exe",
-          "_d3dcompiler_47.dll_a673e78c_fc6a_4133_b2d9_b6447cfbc1c3.dll",
-          "d3dcompiler_47.dll.old",
-          "_d3dcompiler_47.dll",
-          "47ef8a6e.rbf"
-        ],
-        "vhash": "156066655d15651550c8z75dz1nz1d",
-        "ssdeep": "49152:uuhjwXkKcimPVqB4faGCMhGNYYpQVTxx6k/ftO4w6FXKpOD21pLeXvZCoFwI8ccb:Ky904wYbZCoOI85oyI/8",
-        "sha1": "20d554a80d759c50d6537dd7097fed84dd258b3e",
         "last_analysis_results": {
           "Bkav": {
             "method": "blacklist",
@@ -706,456 +1118,44 @@
             "result": null
           }
         },
-        "type_extension": "dll",
-        "trid": [
-          {
-            "file_type": "Win64 Executable (generic)",
-            "probability": 48.7
-          },
-          {
-            "file_type": "Win16 NE executable (generic)",
-            "probability": 23.3
-          },
-          {
-            "file_type": "OS/2 Executable (generic)",
-            "probability": 9.3
-          },
-          {
-            "file_type": "Generic Win/DOS Executable",
-            "probability": 9.2
-          },
-          {
-            "file_type": "DOS Executable Generic",
-            "probability": 9.2
-          }
-        ],
-        "pe_info": {
-          "timestamp": 348736557,
-          "imphash": "dc71769f237c0a3ba38879380c54a4e6",
-          "machine_type": 34404,
-          "entry_point": 2683744,
-          "resource_details": [
-            {
-              "lang": "ENGLISH US",
-              "chi2": 77293.93,
-              "filetype": "unknown",
-              "entropy": 3.4575235843658447,
-              "sha256": "4e9e21a72e775da46083881e770353b2429e8a72f0bdece6ae9bc394717261cf",
-              "type": "RT_VERSION"
-            }
-          ],
-          "resource_langs": {
-            "ENGLISH US": 1
-          },
-          "resource_types": {
-            "RT_VERSION": 1
-          },
-          "overlay": {
-            "chi2": 715.12,
-            "filetype": "unknown",
-            "entropy": 7.998252868652344,
-            "offset": 4882432,
-            "md5": "a2fa289c833f28b87fd8067815fbcc7c",
-            "size": 285912
-          },
-          "sections": [
-            {
-              "name": ".text",
-              "chi2": 26650572.0,
-              "virtual_address": 4096,
-              "entropy": 6.4,
-              "raw_size": 3706880,
-              "flags": "rx",
-              "virtual_size": 3704846,
-              "md5": "f26e5a699d56a105d86862cc8a9f4a2e"
-            },
-            {
-              "name": ".rdata",
-              "chi2": 26973392.0,
-              "virtual_address": 3710976,
-              "entropy": 5.36,
-              "raw_size": 933888,
-              "flags": "r",
-              "virtual_size": 933252,
-              "md5": "cb6b9f9acf7936bef3db24b5bf4c0297"
-            },
-            {
-              "name": ".data",
-              "chi2": 10012611.0,
-              "virtual_address": 4644864,
-              "entropy": 1.99,
-              "raw_size": 65536,
-              "flags": "rw",
-              "virtual_size": 102976,
-              "md5": "1122e8e8b23db33b6edc6a3a893362dc"
-            },
-            {
-              "name": ".pdata",
-              "chi2": 2289408.0,
-              "virtual_address": 4751360,
-              "entropy": 6.36,
-              "raw_size": 131072,
-              "flags": "r",
-              "virtual_size": 130800,
-              "md5": "b1e4ba89becfa0c0c8634840ae6ddcfa"
-            },
-            {
-              "name": ".rsrc",
-              "chi2": 820776.62,
-              "virtual_address": 4882432,
-              "entropy": 1.14,
-              "raw_size": 4096,
-              "flags": "r",
-              "virtual_size": 1088,
-              "md5": "a0f1ab47d7a68f340463cb6e66040344"
-            },
-            {
-              "name": ".reloc",
-              "chi2": 218846.92,
-              "virtual_address": 4886528,
-              "entropy": 5.4,
-              "raw_size": 36864,
-              "flags": "r",
-              "virtual_size": 35236,
-              "md5": "67b424abe2d7452184be8b5f30cd6866"
-            }
-          ],
-          "exports": [
-            "D3DAssemble",
-            "D3DCompile",
-            "D3DCompile2",
-            "D3DCompileFromFile",
-            "D3DCompressShaders",
-            "D3DCreateBlob",
-            "D3DCreateFunctionLinkingGraph",
-            "D3DCreateLinker",
-            "D3DDecompressShaders",
-            "D3DDisassemble",
-            "D3DDisassemble10Effect",
-            "D3DDisassemble11Trace",
-            "D3DDisassembleRegion",
-            "D3DGetBlobPart",
-            "D3DGetDebugInfo",
-            "D3DGetInputAndOutputSignatureBlob",
-            "D3DGetInputSignatureBlob",
-            "D3DGetOutputSignatureBlob",
-            "D3DGetTraceInstructionOffsets",
-            "D3DLoadModule",
-            "D3DPreprocess",
-            "D3DReadFileToBlob",
-            "D3DReflect",
-            "D3DReflectLibrary",
-            "D3DReturnFailure1",
-            "D3DSetBlobPart",
-            "D3DStripShader",
-            "D3DWriteBlobToFile",
-            "DebugSetMute"
-          ],
-          "compiler_product_versions": [
-            "[---] Unmarked objects count=145",
-            "[IMP] VS2008 SP1 build 30729 count=5",
-            "id: 0x101, version: 28900 count=2",
-            "id: 0x105, version: 27316 count=60",
-            "id: 0x104, version: 27316 count=1",
-            "id: 0x103, version: 28900 count=30",
-            "id: 0x105, version: 28900 count=220",
-            "id: 0x104, version: 28900 count=55",
-            "id: 0x100, version: 28900 count=1",
-            "id: 0x108, version: 28900 count=136",
-            "id: 0xff, version: 28900 count=1",
-            "id: 0x102, version: 28900 count=1"
-          ],
-          "rich_pe_header_hash": "43be7f32a58e755c5cb47132958e7d2f",
-          "import_list": [
-            {
-              "library_name": "KERNEL32.dll",
-              "imported_functions": [
-                "CloseHandle",
-                "CompareStringW",
-                "CreateEventW",
-                "CreateFileA",
-                "CreateFileMappingA",
-                "CreateFileMappingW",
-                "CreateFileW",
-                "DeleteCriticalSection",
-                "DeleteFileW",
-                "DeviceIoControl",
-                "DisableThreadLibraryCalls",
-                "EncodePointer",
-                "EnterCriticalSection",
-                "EnumSystemLocalesW",
-                "ExitProcess",
-                "ExpandEnvironmentStringsW",
-                "FindClose",
-                "FindFirstFileExW",
-                "FindNextFileW",
-                "FlsAlloc",
-                "FlsFree",
-                "FlsGetValue",
-                "FlsSetValue",
-                "FlushFileBuffers",
-                "FreeEnvironmentStringsW",
-                "FreeLibrary",
-                "GetACP",
-                "GetCommandLineA",
-                "GetCommandLineW",
-                "GetConsoleMode",
-                "GetConsoleOutputCP",
-                "GetCPInfo",
-                "GetCurrentDirectoryW",
-                "GetCurrentProcess",
-                "GetCurrentProcessId",
-                "GetCurrentThreadId",
-                "GetDriveTypeW",
-                "GetEnvironmentStringsW",
-                "GetEnvironmentVariableA",
-                "GetFileAttributesW",
-                "GetFileSize",
-                "GetFileSizeEx",
-                "GetFileType",
-                "GetFullPathNameA",
-                "GetFullPathNameW",
-                "GetLastError",
-                "GetLocaleInfoW",
-                "GetModuleFileNameA",
-                "GetModuleFileNameW",
-                "GetModuleHandleExW",
-                "GetModuleHandleW",
-                "GetOEMCP",
-                "GetProcAddress",
-                "GetProcessHeap",
-                "GetStartupInfoW",
-                "GetStdHandle",
-                "GetStringTypeW",
-                "GetSystemInfo",
-                "GetSystemTimeAsFileTime",
-                "GetUserDefaultLCID",
-                "HeapAlloc",
-                "HeapCreate",
-                "HeapDestroy",
-                "HeapFree",
-                "HeapReAlloc",
-                "HeapSize",
-                "InitializeCriticalSection",
-                "InitializeCriticalSectionAndSpinCount",
-                "InitializeCriticalSectionEx",
-                "InitializeSListHead",
-                "InterlockedFlushSList",
-                "IsDebuggerPresent",
-                "IsProcessorFeaturePresent",
-                "IsValidCodePage",
-                "IsValidLocale",
-                "LCMapStringW",
-                "LeaveCriticalSection",
-                "LoadLibraryExW",
-                "LocalAlloc",
-                "LocalFree",
-                "lstrcmpiA",
-                "MapViewOfFile",
-                "MapViewOfFileEx",
-                "MultiByteToWideChar",
-                "OutputDebugStringA",
-                "QueryPerformanceCounter",
-                "RaiseException",
-                "ReadConsoleW",
-                "ReadFile",
-                "ResetEvent",
-                "RtlCaptureContext",
-                "RtlLookupFunctionEntry",
-                "RtlPcToFileHeader",
-                "RtlUnwindEx",
-                "RtlVirtualUnwind",
-                "SetEndOfFile",
-                "SetEnvironmentVariableW",
-                "SetEvent",
-                "SetFileAttributesW",
-                "SetFilePointerEx",
-                "SetLastError",
-                "SetStdHandle",
-                "SetUnhandledExceptionFilter",
-                "Sleep",
-                "TerminateProcess",
-                "TlsAlloc",
-                "TlsFree",
-                "TlsGetValue",
-                "TlsSetValue",
-                "UnhandledExceptionFilter",
-                "UnmapViewOfFile",
-                "VirtualAlloc",
-                "VirtualFree",
-                "WaitForSingleObjectEx",
-                "WideCharToMultiByte",
-                "WriteConsoleW",
-                "WriteFile"
-              ]
-            },
-            {
-              "library_name": "ADVAPI32.dll",
-              "imported_functions": [
-                "CryptAcquireContextW",
-                "CryptCreateHash",
-                "CryptDestroyHash",
-                "CryptGetHashParam",
-                "CryptHashData",
-                "CryptReleaseContext",
-                "RegCloseKey",
-                "RegEnumKeyExA",
-                "RegOpenKeyExA",
-                "RegOpenKeyExW",
-                "RegQueryValueExA",
-                "RegQueryValueExW"
-              ]
-            },
-            {
-              "library_name": "RPCRT4.dll",
-              "imported_functions": [
-                "UuidCreate"
-              ]
-            }
-          ]
-        },
-        "popular_threat_classification": {
-          "suggested_threat_label": "trojan.marte/supplychainagent",
-          "popular_threat_category": [
-            {
-              "count": 33,
-              "value": "trojan"
-            }
-          ],
-          "popular_threat_name": [
-            {
-              "count": 6,
-              "value": "marte"
-            },
-            {
-              "count": 5,
-              "value": "supplychainagent"
-            },
-            {
-              "count": 2,
-              "value": "bjvg"
-            }
-          ]
-        },
-        "size": 5168344,
-        "magika": "PEBIN",
-        "tags": [
-          "pedll",
-          "assembly",
-          "detect-debug-environment",
-          "long-sleeps",
-          "64bits",
-          "overlay"
-        ],
         "last_submission_date": 1751212532,
-        "first_submission_date": 1679467267,
-        "signature_info": {
-          "product": "Microsoft® Windows® Operating System",
-          "description": "Direct3D HLSL Compiler for Redistribution",
-          "file version": "10.0.20348.1 (WinBuild.160101.0800)",
-          "x509": [
-            {
-              "valid usage": "0.4.1.311.61.6, Code Signing",
-              "thumbprint_sha256": "4A838904E732A380E2856A9D6FEE926E5C57EB59336292AC5D9E47C9B2C1ED13",
-              "name": "Microsoft Corporation",
-              "algorithm": "sha256RSA",
-              "thumbprint_md5": "4068B1B0494EFA79F5A751DCCA8111CD",
-              "valid from": "2020-12-15 21:24:20",
-              "valid to": "2021-12-02 21:24:20",
-              "serial number": "33 00 00 03 DF FB 6A E3 F4 27 EC B6 A3 00 00 00 00 03 DF",
-              "cert issuer": "Microsoft Code Signing PCA 2010",
-              "thumbprint": "914A09C2E02C696AF394048BCB8D95449BCD5B9E"
-            },
-            {
-              "thumbprint_sha256": "9AAD6C1A83A1B974BA574A995AF35B8CA772DA919270DB1605A8B81E1BBC896F",
-              "name": "Microsoft Code Signing PCA 2010",
-              "algorithm": "sha256RSA",
-              "thumbprint_md5": "B7A7B4605E33389F48B33D17CAE73006",
-              "valid from": "2010-07-06 20:40:17",
-              "valid to": "2025-07-06 20:50:17",
-              "serial number": "61 0C 52 4C 00 00 00 00 00 03",
-              "cert issuer": "Microsoft Root Certificate Authority 2010",
-              "thumbprint": "8BFE3107712B3C886B1C96AAEC89984914DC9B6B"
-            },
-            {
-              "valid usage": "Timestamp Signing",
-              "thumbprint_sha256": "2ECD5C9988F8D6C1590700A616FBFD49C3F9B6EB94871B2FFEDD01F5717AE541",
-              "name": "Microsoft Time-Stamp Service",
-              "algorithm": "sha256RSA",
-              "thumbprint_md5": "18743F5628FF5A58FE1ACC510FE06916",
-              "valid from": "2020-11-12 18:26:04",
-              "valid to": "2022-02-11 18:26:04",
-              "serial number": "33 00 00 01 51 C3 50 E7 59 6C AA C6 A7 00 00 00 00 01 51",
-              "cert issuer": "Microsoft Time-Stamp PCA 2010",
-              "thumbprint": "A0A2AF73F13FA4420B254C252015A0C57AD7235E"
-            },
-            {
-              "thumbprint_sha256": "86EC118D1EE69670A46E2BE29C4B4208BE043E36600D4E1DD3F3D515CA119020",
-              "name": "Microsoft Time-Stamp PCA 2010",
-              "algorithm": "sha256RSA",
-              "thumbprint_md5": "02F4BF5A04D8EA2321537D606C55507D",
-              "valid from": "2010-07-01 21:36:55",
-              "valid to": "2025-07-01 21:46:55",
-              "serial number": "61 09 81 2A 00 00 00 00 00 02",
-              "cert issuer": "Microsoft Root Certificate Authority 2010",
-              "thumbprint": "2AA752FE64C49ABE82913C463529CF10FF2F04EE"
-            }
-          ],
-          "original name": "d3dcompiler_47.dll",
-          "internal name": "d3dcompiler_47.dll",
-          "copyright": "© Microsoft Corporation. All rights reserved.",
-          "pkcs7": {
-            "opusinfo": [
-              {
-                "moreInfo": "http://www.microsoft.com/windows",
-                "programName": "Microsoft Windows"
-              }
-            ]
-          }
-        },
-        "type_description": "Win32 DLL",
-        "last_analysis_date": 1752390589,
-        "authentihash": "2df8dd0641e0b2af596978fa5a2b289be227f36444dd1dc63e05f0290b704c49",
-        "tlsh": "T1A6368D5673E940A9C1BBD138CE479213EBB1780403345BEB5191C669EF73BE26A3E724",
-        "total_votes": {
-          "harmless": 1,
-          "malicious": 8
-        },
-        "type_tags": [
-          "executable",
-          "windows",
-          "win32",
-          "pe",
-          "pedll"
+        "first_seen_itw_date": 1680144365,
+        "magic": "PE32+ executable (DLL) (console) x86-64, for MS Windows",
+        "magika": "PEBIN",
+        "sha256": "11be1803e2e307b647a8a7e02d128335c448ff741bf06bf52b332e0bbf423b03",
+        "vhash": "156066655d15651550c8z75dz1nz1d",
+        "creation_date": 348736557,
+        "names": [
+          "_d3dcompiler_47.dll_a673e78c_fc6a_4133_b2d9_b6447cfbc1c3",
+          "d3dcompiler_47.dll",
+          "_d3dcompiler_47.dll_4f499839_62c8_433b_beff_574db37e3c81",
+          "d3dcompiler_47.bin",
+          "3CXDesktopApp-18.12.416-full.nupkg",
+          "11be1803e2e307b647a8a7e02d128335c448ff741bf06bf52b332e0bbf423b03.dll",
+          "b891e.rbf",
+          "b318a.rbf",
+          "b312f.rbf",
+          "b88c6.rbf",
+          "3520e7.rbf",
+          "Mal_d3dcompiler_47.dll",
+          "5b822f8.rbf",
+          "11be1803e2e307b647a8a7e02d128335c448ff741bf06bf52b332e0bbf423b03.bin",
+          "4975626a.rbf",
+          "11be1803e2e307b647a8a7e02d128335c448ff741bf06bf52b332e0bbf423b03.bin.sample",
+          "d3dcompiler_47.dll.virus",
+          "11be1803e2e307b647a8a7e02d128335c448ff741bf06bf52b332e0bbf423b03_d3complierdll",
+          "20d554a80d759c50d6537dd7097fed84dd258b3e.exe",
+          "d3dcompiler_47.dll (PROEN-204)",
+          "11be1803e2e307b647a8a7e02d128335c448ff741bf06bf52b332e0bbf423b03.exe",
+          "_d3dcompiler_47.dll_a673e78c_fc6a_4133_b2d9_b6447cfbc1c3.dll",
+          "d3dcompiler_47.dll.old",
+          "_d3dcompiler_47.dll",
+          "47ef8a6e.rbf"
         ],
-        "last_modification_date": 1752456786,
-        "detectiteasy": {
-          "filetype": "PE64",
-          "values": [
-            {
-              "info": "LTCG/C",
-              "version": "19.26.28900",
-              "type": "Compiler",
-              "name": "Microsoft Visual C/C++"
-            },
-            {
-              "version": "14.26.28900",
-              "type": "Linker",
-              "name": "Microsoft Linker"
-            },
-            {
-              "version": "2019 version 16.6",
-              "type": "Tool",
-              "name": "Visual Studio"
-            },
-            {
-              "info": "PKCS #7",
-              "version": "2.0",
-              "type": "Sign tool",
-              "name": "Windows Authenticode"
-            }
-          ]
-        }
+        "type_extension": "dll",
+        "type_tag": "pedll",
+        "type_description": "Win32 DLL",
+        "unique_sources": 191
       }
     }
   ],
