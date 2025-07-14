@@ -25,12 +25,14 @@ lastAnalysisStatsTim=$(jq -r '.data[]["attributes"]["last_analysis_stats"]["time
 lastAnalysisStatsCon=$(jq -r '.data[]["attributes"]["last_analysis_stats"]["confirmed-timeout"]' $fileName)
 lastAnalysisStatsFai=$(jq -r '.data[]["attributes"]["last_analysis_stats"]["failure"]' $fileName)
 lastAnalysisStatsTypUns=$(jq -r '.data[]["attributes"]["last_analysis_stats"]["type-unsupported"]' $fileName)
+popThreatCat=$(jq -r '.data[]["attributes"]["popular_threat_classification"]["popular_threat_category"]["value"]' $fileName)
 
 echo "=====VIRUS TOTAL HASH OUTPUT====="
 echo "Hashing : $hashID"
 echo "Create Date : $createDate"
 echo "Last Analysis Date : $lastChkDate"
 echo "Description : $descr"
+echo "Popular Threat Category : $popThreatCat"
 #echo "File Names : $names"
 echo "================================="
 echo "===CROWDSOURCED YARA RESULTS====="
