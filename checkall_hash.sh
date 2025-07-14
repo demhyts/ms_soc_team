@@ -4,6 +4,8 @@
 read -p "Input Hash : " inputHash
 read -p "Input VT Api Key : " apiKey
 curl -s -X GET https://www.virustotal.com/api/v3/search?query=$inputHash -H 'Content-Type: application/json' -H "x-apikey: $apiKey" | jq . > $inputHash-VT.json
+curl -s -X GET  https://otx.alienvault.com/api/v1/indicator/file/$inputHash -H 'Content-Type: application/json' | jq . > $inputHash-OTX.json
+
 
 #VT Output Variables
 fileName="$inputHash-VT.json"
@@ -29,6 +31,7 @@ lastAnalysisStatsTypUns=$(jq -r '.data[]["attributes"]["last_analysis_stats"]["t
 popThreatCat=$(jq -r '.data[]["attributes"]["popular_threat_classification"]["popular_threat_category"][]["value"]' $VTfileName)
 
 #Print the results
+#VT Output
 echo "=========VIRUS TOTAL============="
 echo "=====VIRUS TOTAL HASH OUTPUT====="
 echo "Hashing : $hashID"
@@ -59,3 +62,5 @@ echo "Type Unsupported : $lastAnalysisStatsTypUns"
 echo "=================================="
 echo "===END OF VIRUS TOTAL OUTPUT====="
 echo "=================================="
+
+#OTX Results
