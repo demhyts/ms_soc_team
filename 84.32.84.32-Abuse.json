@@ -1,0 +1,398 @@
+{
+  "data": {
+    "ipAddress": "84.32.84.32",
+    "isPublic": true,
+    "ipVersion": 4,
+    "isWhitelisted": false,
+    "abuseConfidenceScore": 37,
+    "countryCode": "LT",
+    "usageType": "Content Delivery Network",
+    "isp": "UAB Nacionalinis Telekomunikaciju Tinklas",
+    "domain": "ntt.lt",
+    "hostnames": [],
+    "isTor": false,
+    "countryName": "Lithuania",
+    "totalReports": 26,
+    "numDistinctUsers": 17,
+    "lastReportedAt": "2025-07-15T19:41:00+00:00",
+    "reports": [
+      {
+        "reportedAt": "2025-07-15T19:41:00+00:00",
+        "comment": "Doppelganger domain flodraulic-group.com, fraudulent requests for info about financial data:\r\n'We are experiencing delays in our accounts reconciliations and with all aging receivables. This has created a bottleneck in our payment process. We need to ensure that all due invoices are paid promptly. Could you please provide an update on the payments for this period and our upcoming invoices?'",
+        "categories": [
+          7,
+          17
+        ],
+        "reporterId": 62441,
+        "reporterCountryCode": "CA",
+        "reporterCountryName": "Canada"
+      },
+      {
+        "reportedAt": "2025-07-13T15:43:46+00:00",
+        "comment": "Phishing Alert\n\nYour web site: https://tzuchipreschool.id/\nserver ip: 84.32.84.32\n\nThe site has been hacked and contains a special redirect for Google bot IPs. Normal visitors see normal content, but Google bots are redirected.\n\nThe domain uses naming, logos, and images infringing on slotday's trademarked name to host a fake page risking people, assets, customers, operations, and reputation.\n\nDue to suspicious URL substring matches and appearance, the domain attempts to illegitimately impersonate slotday.\n\nThis page may harvest credentials, spread malware, or commit internet crimes. Please investigate and take action.\n\nUrgently fix your site!\n\nViolations:\n1. The domain copies the look and feel of the official brand site and illegally uses \"slotday\" in its domain.\n2. Brand name \"slotday\" appears throughout the site content.\n3. Brand logos, texts, and images are stolen from the official site.\n4. Illegal use of brand license.",
+        "categories": [
+          3,
+          7,
+          15
+        ],
+        "reporterId": 223145,
+        "reporterCountryCode": "US",
+        "reporterCountryName": "United States of America"
+      },
+      {
+        "reportedAt": "2025-07-11T19:04:49+00:00",
+        "comment": "Phishing Alert\n\nYour web site: https://tzuchipreschool.id/\nserver ip: 84.32.84.32\n\nThe site has been hacked and contains a special redirect for Google bot IPs. Normal visitors see normal content, but Google bots are redirected.\n\nThe domain uses naming, logos, and images infringing on slotday's trademarked name to host a fake page risking people, assets, customers, operations, and reputation.\n\nDue to suspicious URL substring matches and appearance, the domain attempts to illegitimately impersonate slotday.\n\nThis page may harvest credentials, spread malware, or commit internet crimes. Please investigate and take action.\n\nUrgently fix your site!\n\nViolations:\n1. The domain copies the look and feel of the official brand site and illegally uses \"slotday\" in its domain.\n2. Brand name \"slotday\" appears throughout the site content.\n3. Brand logos, texts, and images are stolen from the official site.\n4. Illegal use of brand license.",
+        "categories": [
+          3,
+          7,
+          15
+        ],
+        "reporterId": 223145,
+        "reporterCountryCode": "US",
+        "reporterCountryName": "United States of America"
+      },
+      {
+        "reportedAt": "2025-07-11T12:32:19+00:00",
+        "comment": "Phishing Alert\n\nYour web site: https://palazzobet100.com/\nserver ip: 84.32.84.32\n\nThe site has been hacked and contains a special redirect for Google bot IPs. Normal visitors see normal content, but Google bots are redirected.\n\nThe domain uses naming, logos, and images infringing on palazzobet's trademarked name to host a fake page risking people, assets, customers, operations, and reputation.\n\nDue to suspicious URL substring matches and appearance, the domain attempts to illegitimately impersonate palazzobet.\n\nThis page may harvest credentials, spread malware, or commit internet crimes. Please investigate and take action.\n\nUrgently fix your site!\n\nViolations:\n1. The domain copies the look and feel of the official brand site and illegally uses \"palazzobet\" in its domain.\n2. Brand name \"palazzobet\" appears throughout the site content.\n3. Brand logos, texts, and images are stolen from the official site.\n4. Illegal use of brand license.",
+        "categories": [
+          3,
+          7,
+          15
+        ],
+        "reporterId": 223145,
+        "reporterCountryCode": "US",
+        "reporterCountryName": "United States of America"
+      },
+      {
+        "reportedAt": "2025-07-11T12:32:19+00:00",
+        "comment": "Phishing Alert\n\nYour web site: https://palazzobet101.com/\nserver ip: 84.32.84.32\n\nThe site has been hacked and contains a special redirect for Google bot IPs. Normal visitors see normal content, but Google bots are redirected.\n\nThe domain uses naming, logos, and images infringing on palazzobet's trademarked name to host a fake page risking people, assets, customers, operations, and reputation.\n\nDue to suspicious URL substring matches and appearance, the domain attempts to illegitimately impersonate palazzobet.\n\nThis page may harvest credentials, spread malware, or commit internet crimes. Please investigate and take action.\n\nUrgently fix your site!\n\nViolations:\n1. The domain copies the look and feel of the official brand site and illegally uses \"palazzobet\" in its domain.\n2. Brand name \"palazzobet\" appears throughout the site content.\n3. Brand logos, texts, and images are stolen from the official site.\n4. Illegal use of brand license.",
+        "categories": [
+          3,
+          7,
+          15
+        ],
+        "reporterId": 223145,
+        "reporterCountryCode": "US",
+        "reporterCountryName": "United States of America"
+      },
+      {
+        "reportedAt": "2025-07-11T12:32:19+00:00",
+        "comment": "Phishing Alert\n\nYour web site: https://palazzobet102.com/\nserver ip: 84.32.84.32\n\nThe site has been hacked and contains a special redirect for Google bot IPs. Normal visitors see normal content, but Google bots are redirected.\n\nThe domain uses naming, logos, and images infringing on palazzobet's trademarked name to host a fake page risking people, assets, customers, operations, and reputation.\n\nDue to suspicious URL substring matches and appearance, the domain attempts to illegitimately impersonate palazzobet.\n\nThis page may harvest credentials, spread malware, or commit internet crimes. Please investigate and take action.\n\nUrgently fix your site!\n\nViolations:\n1. The domain copies the look and feel of the official brand site and illegally uses \"palazzobet\" in its domain.\n2. Brand name \"palazzobet\" appears throughout the site content.\n3. Brand logos, texts, and images are stolen from the official site.\n4. Illegal use of brand license.",
+        "categories": [
+          3,
+          7,
+          15
+        ],
+        "reporterId": 223145,
+        "reporterCountryCode": "US",
+        "reporterCountryName": "United States of America"
+      },
+      {
+        "reportedAt": "2025-07-11T11:02:17+00:00",
+        "comment": "true",
+        "categories": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "reporterId": 166387,
+        "reporterCountryCode": "US",
+        "reporterCountryName": "United States of America"
+      },
+      {
+        "reportedAt": "2025-07-11T09:45:04+00:00",
+        "comment": "Phishing Alert\n\nYour web site: https://palazzobet102.com/\nserver ip: 84.32.84.32\n\nThe site has been hacked and contains a special redirect for Google bot IPs. Normal visitors see normal content, but Google bots are redirected.\n\nThe domain uses naming, logos, and images infringing on palazzobet's trademarked name to host a fake page risking people, assets, customers, operations, and reputation.\n\nDue to suspicious URL substring matches and appearance, the domain attempts to illegitimately impersonate palazzobet.\n\nThis page may harvest credentials, spread malware, or commit internet crimes. Please investigate and take action.\n\nUrgently fix your site!\n\nViolations:\n1. The domain copies the look and feel of the official brand site and illegally uses \"palazzobet\" in its domain.\n2. Brand name \"palazzobet\" appears throughout the site content.\n3. Brand logos, texts, and images are stolen from the official site.\n4. Illegal use of brand license.",
+        "categories": [
+          7,
+          18
+        ],
+        "reporterId": 223026,
+        "reporterCountryCode": "US",
+        "reporterCountryName": "United States of America"
+      },
+      {
+        "reportedAt": "2025-07-11T09:45:04+00:00",
+        "comment": "Phishing Alert\n\nYour web site: https://palazzobet101.com/\nserver ip: 84.32.84.32\n\nThe site has been hacked and contains a special redirect for Google bot IPs. Normal visitors see normal content, but Google bots are redirected.\n\nThe domain uses naming, logos, and images infringing on palazzobet's trademarked name to host a fake page risking people, assets, customers, operations, and reputation.\n\nDue to suspicious URL substring matches and appearance, the domain attempts to illegitimately impersonate palazzobet.\n\nThis page may harvest credentials, spread malware, or commit internet crimes. Please investigate and take action.\n\nUrgently fix your site!\n\nViolations:\n1. The domain copies the look and feel of the official brand site and illegally uses \"palazzobet\" in its domain.\n2. Brand name \"palazzobet\" appears throughout the site content.\n3. Brand logos, texts, and images are stolen from the official site.\n4. Illegal use of brand license.",
+        "categories": [
+          7,
+          18
+        ],
+        "reporterId": 223026,
+        "reporterCountryCode": "US",
+        "reporterCountryName": "United States of America"
+      },
+      {
+        "reportedAt": "2025-07-08T13:05:45+00:00",
+        "comment": "e",
+        "categories": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "reporterId": 58204,
+        "reporterCountryCode": "US",
+        "reporterCountryName": "United States of America"
+      },
+      {
+        "reportedAt": "2025-07-07T14:51:06+00:00",
+        "comment": "Malware IOC [ 84[.]32[.]84[.]32] was recognized as relating to [APT36,APT38,Infrastructure,Lazarus,MaliciousWebsites,MicrosoftPhishing,PhishingWebsites,TransparentTribe]. IOC observed on a network or in an operations system indicates a computer intrusion.",
+        "categories": [
+          15,
+          21
+        ],
+        "reporterId": 187712,
+        "reporterCountryCode": "ES",
+        "reporterCountryName": "Spain"
+      },
+      {
+        "reportedAt": "2025-07-04T15:41:31+00:00",
+        "comment": "\"Websites dedicated to identity theft and timeshare sales/purchase scams.\"",
+        "categories": [
+          3,
+          7,
+          11,
+          17
+        ],
+        "reporterId": 213355,
+        "reporterCountryCode": "MX",
+        "reporterCountryName": "Mexico"
+      },
+      {
+        "reportedAt": "2025-07-02T13:52:09+00:00",
+        "comment": "Spam with phishing links.",
+        "categories": [
+          7,
+          11,
+          17
+        ],
+        "reporterId": 50882,
+        "reporterCountryCode": "US",
+        "reporterCountryName": "United States of America"
+      },
+      {
+        "reportedAt": "2025-06-23T13:05:29+00:00",
+        "comment": "phishing attempt cimoota.ca",
+        "categories": [
+          7,
+          11
+        ],
+        "reporterId": 161752,
+        "reporterCountryCode": "CA",
+        "reporterCountryName": "Canada"
+      },
+      {
+        "reportedAt": "2025-06-23T05:39:31+00:00",
+        "comment": "Spam emails are being sent from *@fac-ltdserver.site email addresses",
+        "categories": [
+          11
+        ],
+        "reporterId": 115050,
+        "reporterCountryCode": "AU",
+        "reporterCountryName": "Australia"
+      },
+      {
+        "reportedAt": "2025-06-16T16:53:08+00:00",
+        "comment": "http://tracking.digiocean.site/tracking/botclick?msgid=0bOFQP4ebKD7rdAU4GDW1A2&c=1934191809341385050",
+        "categories": [
+          7,
+          10,
+          11,
+          17
+        ],
+        "reporterId": 26956,
+        "reporterCountryCode": "US",
+        "reporterCountryName": "United States of America"
+      },
+      {
+        "reportedAt": "2025-06-09T20:46:55+00:00",
+        "comment": "Type of abuse: Government impersonation, potentially phishing or fraud\r\n\r\nRisk: Misleading the public, creating false legitimacy, possible scams\r\n\r\nThis domain is not affiliated with any known government agency, and its structure misleads users into believing it is official, which could be used to deceive citizens or commit cybercrimes.\r\n\r\nWe respectfully request that the domain be reviewed and, if confirmed as fraudulent, that appropriate action be taken, including suspension or takedown.\r\n\r\nPlease let us know if further information or documentation is required.\r\n\r\nBest regards,",
+        "categories": [
+          3,
+          7
+        ],
+        "reporterId": 213355,
+        "reporterCountryCode": "MX",
+        "reporterCountryName": "Mexico"
+      },
+      {
+        "reportedAt": "2025-06-03T06:22:33+00:00",
+        "comment": "Spam emails are being sent from *@bibid.icu email addresses",
+        "categories": [
+          11
+        ],
+        "reporterId": 115050,
+        "reporterCountryCode": "AU",
+        "reporterCountryName": "Australia"
+      },
+      {
+        "reportedAt": "2025-05-30T07:46:14+00:00",
+        "comment": "Identified a phishing email originating from the domain ganvitorossi.com.",
+        "categories": [
+          7
+        ],
+        "reporterId": 119140,
+        "reporterCountryCode": "IT",
+        "reporterCountryName": "Italy"
+      },
+      {
+        "reportedAt": "2025-05-28T15:53:06+00:00",
+        "comment": "Dear\r\n\r\n ITM LAI SASU  is a company based in France looking for a commercial relationship partner .\r\n\r\nWe would like to order products with your company and intend to use them for resale in our stores, so please send us your products catalog and information about your sales delivery deadlines.\r\n\r\nHowever, we wish to place these orders  against payment of at least 3 to 7 or 14 to 30 days because of our insurance procedure or by commercial contract.\r\n\r\nPlease confirm with us the payment terms including your best offer.\r\n\r\nBest regards .\r\nMr Ali Khosrovi , Executif Chief\r\n\r\nITM LAI SASU\r\n24 RUE AUGUSTE CHABRIERES -  75015 PARIS ( FRANCE )\r\n\r\nSIREN et SIRET : 514080837 / 51408083700016\r\nACT N° : 5210A\r\nVAT or TVA : FR44514080837  - RCS Paris B 514 080 837\r\n\r\nTEL : 0033755531290 -  CEL : 0033633995799\r\n\r\nEMAIL: achats@itmlaintnl.com",
+        "categories": [
+          7,
+          11,
+          17
+        ],
+        "reporterId": 68317,
+        "reporterCountryCode": "ES",
+        "reporterCountryName": "Spain"
+      },
+      {
+        "reportedAt": "2025-05-14T03:17:42+00:00",
+        "comment": "Spam emails are being sent from *@kutleas.com email addresses",
+        "categories": [
+          11
+        ],
+        "reporterId": 115050,
+        "reporterCountryCode": "AU",
+        "reporterCountryName": "Australia"
+      },
+      {
+        "reportedAt": "2025-04-29T13:35:55+00:00",
+        "comment": "Hacker syslog review 1745933755",
+        "categories": [
+          15
+        ],
+        "reporterId": 18733,
+        "reporterCountryCode": "US",
+        "reporterCountryName": "United States of America"
+      },
+      {
+        "reportedAt": "2025-04-28T11:42:44+00:00",
+        "comment": "true",
+        "categories": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "reporterId": 166387,
+        "reporterCountryCode": "US",
+        "reporterCountryName": "United States of America"
+      },
+      {
+        "reportedAt": "2025-04-25T12:57:12+00:00",
+        "comment": "blockchain.t@dep-sec.com\r\nBitcoin Miner, ransomware\r\nhighly criminel intends and doings...",
+        "categories": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "reporterId": 69967,
+        "reporterCountryCode": "DE",
+        "reporterCountryName": "Germany"
+      },
+      {
+        "reportedAt": "2025-04-24T06:48:50+00:00",
+        "comment": "\"Suspicious Email\"",
+        "categories": [
+          7,
+          10,
+          11,
+          12,
+          17,
+          19
+        ],
+        "reporterId": 185413,
+        "reporterCountryCode": "ID",
+        "reporterCountryName": "Indonesia"
+      },
+      {
+        "reportedAt": "2025-04-18T09:26:04+00:00",
+        "comment": "Subject: 🍓🍴Complete Your Enrollment to Begin Now",
+        "categories": [
+          11
+        ],
+        "reporterId": 22332,
+        "reporterCountryCode": "FR",
+        "reporterCountryName": "France"
+      }
+    ]
+  }
+}
