@@ -38,6 +38,7 @@ abuseISP=$(jq -r '.data["isp"]' $fileNameAbuse)
 abuseDomain=$(jq -r '.data["domain"]' $fileNameAbuse)
 abuseTotalReports=$(jq -r '.data["totalReports"]' $fileNameAbuse)
 abuseLastReportedAt=$(jq -r '.data["lastReportedAt"]' $fileNameAbuse)
+
 #Print Results API Query
 echo "=========VIRUS TOTAL============="
 echo "=====VIRUS TOTAL IP OUTPUT======="
