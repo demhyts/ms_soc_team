@@ -4,6 +4,8 @@
 
 #Clean up previous output files
 rm -f *.json
+
+#Add Parameters and Curl Query
 read -p "Input IP Address : " inputIP
 abuseIPDBApiKey="c86fa6fb4ad10387d20164181035e8be6d50ba8be72d76e91847beabfe0f7bbaf3467429236e97c8"
 VTapiKey="5e92bfe394fe33287012dced2c1937dbdbf1b6ec2825a1eadd6f60f5180a593d"
